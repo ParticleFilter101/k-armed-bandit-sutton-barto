@@ -1,0 +1,8 @@
+experiment:
+  num_arms: 10
+  num_steps: 1000
+  num_runs: 2000
+  output_dir: "./results/mab_experiment_1"
+
+# Default epsilons to run if none are provided via command line
+default_epsilons: [1,0.1, 0.01, 0.0]
