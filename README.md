@@ -1,6 +1,6 @@
 # K-Armed Bandit Testbed
 
-A professional Python implementation of the **K-Armed Bandit** problem from Sutton & Barto's *Reinforcement Learning: An Introduction*. This repository provides a modular, configurable testbed for experimenting with $\epsilon$-greedy agents.
+A Python implementation of the **K-Armed Bandit** problem from Sutton & Barto's *Reinforcement Learning: An Introduction*. This repository provides a modular, configurable testbed for experimenting with $\epsilon$-greedy agents.
 
 ## Project Structure
 ```text
