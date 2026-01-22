@@ -6,3 +6,10 @@ experiment:
 
 # Default epsilons to run if none are provided via command line
 default_epsilons: [1,0.1, 0.01, 0.0]
+
+# Non-stationary bandit settings
+nonstationary:
+  num_steps: 10000  # Longer runs for non-stationary problems
+  output_dir: "./results/nonstationary_experiment"
+  epsilon: 0.1
+  constant_alpha: 0.1
